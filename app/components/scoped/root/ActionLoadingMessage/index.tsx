@@ -99,7 +99,7 @@ function MessageContent({ word }: { word: string }) {
       <Icon name="circle notched" loading />
       <Message.Content>
         <Message.Header>{word}</Message.Header>
-        We are fetching that content for you.
+        Estamos carregando o conteúdo para você.
       </Message.Content>
     </React.Fragment>
   );
