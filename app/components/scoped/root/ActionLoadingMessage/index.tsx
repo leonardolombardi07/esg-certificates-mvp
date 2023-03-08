@@ -5,13 +5,10 @@ import { useSpinDelay } from "~/utils/hooks";
 import { Media } from "~/components";
 
 const ACTION_WORDS = [
-  "packaging",
-  "zapping",
-  "validating",
-  "processing",
-  "calculating",
-  "computing",
-  "computering",
+  "validando",
+  "em processamento",
+  "calculando",
+  "computando",
 ];
 
 let firstRender = true;
