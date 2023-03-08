@@ -92,7 +92,7 @@ export default function CreateShipProcessRoute() {
   const navigate = useNavigate();
 
   function onCancel() {
-    navigate("/processes/create");
+    navigate("/processes");
   }
 
   return (
