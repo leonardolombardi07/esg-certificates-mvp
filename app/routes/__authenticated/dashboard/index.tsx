@@ -8,7 +8,7 @@ import {
   Icon,
   Grid,
 } from "semantic-ui-react";
-import { NotImplementedMessage, FakeDataMessage } from "~/components";
+import { FakeDataMessage } from "~/components";
 import {
   VictoryPie,
   VictoryBar,
@@ -37,8 +37,6 @@ export default function DashboardIndexRoute() {
 function Dashboard() {
   return (
     <Segment>
-      <Header as="h3">Estatísticas</Header>
-
       <FakeDataMessage />
 
       <Grid relaxed stackable>
